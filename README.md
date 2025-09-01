@@ -4,4 +4,6 @@ Then used https://fish.audio/app/text-to-speech/?modelId=22d3371f97654209ba62b25
 
 Kind of a proof of concept but rather hilarious.
 
+I didn't do all of them, here is a full list of the original if you feel like you need to add some more: https://raw.githubusercontent.com/dgiese/dustcloud/refs/heads/master/devices/xiaomi.vacuum/audio_generator/language/audio_en.csv
+
 Copy the wav files to /opt/rockrobo/resources/sounds/en/ on your roborock and it will play those back
