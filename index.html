@@ -33,7 +33,7 @@ for(let f of files) {
    const el = document.createElement("audio");
    el.setAttribute("controls", "true");
    const src = document.createElement("source");
-   src.setAttribute("source", f);
+   src.setAttribute("src", f);
    el.appendChild(src);
    const label = document.createElement("label");
   label.setAttribute("style", "display:block;width:200px");
