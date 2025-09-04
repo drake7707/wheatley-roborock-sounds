@@ -1,0 +1,47 @@
+<html>
+<body>
+
+<script>
+ const files = [ "bin_in.wav",
+"bin_out.wav",
+"charging.wav",
+"clean_finish.wav",
+"error1.wav",
+"error2.wav",
+"error3.wav",
+"findme.wav",
+"finish.wav",
+"home.wav",
+"paused.wav",
+"positioning.wav",
+"restart_clean.wav",
+"resume_cleaning.wav",
+"resume_home.wav",
+"resume_room.wav",
+"resume_spot.wav",
+"return_yes.wav",
+"room.wav",
+"room_complete.wav",
+"room_partialdone.wav",
+"spot.wav",
+"start.wav",
+"timed_clean.wav",
+"zone.wav",
+"zone_complete.wav" ];
+
+for(let f of files) {
+   const el = document.createElement("audio");
+   el.setAttribute("controls", "true");
+   const src = document.createElement("source");
+   src.setAttribute("source", f);
+   el.appendChild(src);
+   const label = document.createElement("label");
+  label.setAttribute("style", "display:block;width:200px");
+   label.innerText = f;
+  document.body.appendChild(label);
+   document.body.appendChild(el);
+   const br = document.createElement("br");
+  document.body.appendChild(br);
+}
+</script>
+</body>
